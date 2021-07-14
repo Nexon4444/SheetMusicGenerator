@@ -1,0 +1,5 @@
+# Project exclude paths
+/venv/
+/venv36/
+/venv37-TF2.3.0/
+/venv37-TF2.4.0/

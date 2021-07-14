@@ -1,0 +1,230 @@
+2021-06-03 15:47:46.366677: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2021-06-03 15:47:46.367142: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+C:\Users\PC\Documents\Programowanie\Studia\PracaMagisterska\SheetMusicGenerator\venv37-TF2.5.0\lib\site-packages\tensorflow\python\keras\backend.py:435: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn('`tf.keras.backend.set_learning_phase` is deprecated and '
+2021-06-03 15:47:54.955023: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2021-06-03 15:47:54.955812: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-06-03 15:47:54.961773: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: DESKTOP-COQUEH7
+2021-06-03 15:47:54.962230: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: DESKTOP-COQUEH7
+2021-06-03 15:47:54.963100: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-06-03 15:47:58.079812: I tensorflow/core/grappler/devices.cc:69] Number of eligible GPUs (core count >= 8, compute capability >= 0.0): 0
+2021-06-03 15:47:58.080817: I tensorflow/core/grappler/clusters/single_machine.cc:357] Starting new session
+2021-06-03 15:47:58.165910: I tensorflow/core/grappler/optimizers/meta_optimizer.cc:1144] Optimization results for grappler item: graph_to_optimize
+  function_optimizer: Graph size after: 365 nodes (60), 460 edges (69), time = 13.935ms.
+  function_optimizer: Graph size after: 365 nodes (0), 460 edges (0), time = 12.864ms.
+Optimization results for grappler item: sequential_lstm_while_body_1457
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+Optimization results for grappler item: sequential_lstm_while_cond_1456
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+  function_optimizer: function_optimizer did nothing. time = 0ms.
+Optimization results for grappler item: sequential_lstm_1_while_body_1690
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+Optimization results for grappler item: sequential_lstm_1_while_cond_1689
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0ms.
+Optimization results for grappler item: while_body_1890
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+Optimization results for grappler item: while_cond_1889
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0ms.
+
+2021-06-03 15:48:05.160678: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+W0603 15:48:11.143072 11196 save.py:243] Found untraced functions such as lstm_cell_2_layer_call_and_return_conditional_losses, lstm_cell_2_layer_call_fn, lstm_cell_2_layer_call_fn, lstm_cell_2_layer_call_and_return_conditional_losses, lstm_cell_2_layer_call_and_return_conditional_losses while saving (showing 5 of 5). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: C:\Users\PC\AppData\Local\Temp\tmphslhtaze\assets
+I0603 15:48:19.745199 11196 builder_impl.py:775] Assets written to: C:\Users\PC\AppData\Local\Temp\tmphslhtaze\assets
+WARNING:tensorflow:From C:\Users\PC\Documents\Programowanie\Studia\PracaMagisterska\SheetMusicGenerator\venv37-TF2.5.0\lib\site-packages\tensorflow\lite\python\convert_saved_model.py:60: load (from tensorflow.python.saved_model.loader_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This function will only be available through the v1 compatibility library as tf.compat.v1.saved_model.loader.load or tf.compat.v1.saved_model.load. There will be a new function for importing SavedModels in Tensorflow 2.0.
+W0603 15:48:21.095807 11196 deprecation.py:336] From C:\Users\PC\Documents\Programowanie\Studia\PracaMagisterska\SheetMusicGenerator\venv37-TF2.5.0\lib\site-packages\tensorflow\lite\python\convert_saved_model.py:60: load (from tensorflow.python.saved_model.loader_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This function will only be available through the v1 compatibility library as tf.compat.v1.saved_model.loader.load or tf.compat.v1.saved_model.load. There will be a new function for importing SavedModels in Tensorflow 2.0.
+INFO:tensorflow:Restoring parameters from C:\Users\PC\AppData\Local\Temp\tmphslhtaze\variables\variables
+I0603 15:48:22.684494 11196 saver.py:1298] Restoring parameters from C:\Users\PC\AppData\Local\Temp\tmphslhtaze\variables\variables
+INFO:tensorflow:The given SavedModel MetaGraphDef contains SignatureDefs with the following keys: {'serving_default', '__saved_model_init_op'}
+I0603 15:48:24.693298 11196 convert_saved_model.py:80] The given SavedModel MetaGraphDef contains SignatureDefs with the following keys: {'serving_default', '__saved_model_init_op'}
+INFO:tensorflow:input tensors info: 
+I0603 15:48:24.693792 11196 convert_saved_model.py:99] input tensors info: 
+INFO:tensorflow:Tensor's key in saved_model's tensor_map: lstm_input
+I0603 15:48:24.693792 11196 convert_saved_model.py:41] Tensor's key in saved_model's tensor_map: lstm_input
+INFO:tensorflow: tensor name: serving_default_lstm_input:0, shape: (-1, 100, 1), type: DT_FLOAT
+I0603 15:48:24.693792 11196 convert_saved_model.py:43]  tensor name: serving_default_lstm_input:0, shape: (-1, 100, 1), type: DT_FLOAT
+INFO:tensorflow:output tensors info: 
+I0603 15:48:24.694287 11196 convert_saved_model.py:101] output tensors info: 
+INFO:tensorflow:Tensor's key in saved_model's tensor_map: activation_1
+I0603 15:48:24.694287 11196 convert_saved_model.py:41] Tensor's key in saved_model's tensor_map: activation_1
+INFO:tensorflow: tensor name: StatefulPartitionedCall:0, shape: (-1, 289), type: DT_FLOAT
+I0603 15:48:24.694287 11196 convert_saved_model.py:43]  tensor name: StatefulPartitionedCall:0, shape: (-1, 289), type: DT_FLOAT
+INFO:tensorflow:Restoring parameters from C:\Users\PC\AppData\Local\Temp\tmphslhtaze\variables\variables
+I0603 15:48:29.443484 11196 saver.py:1298] Restoring parameters from C:\Users\PC\AppData\Local\Temp\tmphslhtaze\variables\variables
+2021-06-03 15:48:41.101747: I tensorflow/core/grappler/devices.cc:69] Number of eligible GPUs (core count >= 8, compute capability >= 0.0): 0
+2021-06-03 15:48:41.111006: I tensorflow/core/grappler/clusters/single_machine.cc:357] Starting new session
+2021-06-03 15:48:46.131635: I tensorflow/core/grappler/optimizers/meta_optimizer.cc:1144] Optimization results for grappler item: graph_to_optimize
+  function_optimizer: Graph size after: 638 nodes (541), 1218 edges (1058), time = 560.533ms.
+  function_optimizer: Graph size after: 638 nodes (0), 1218 edges (0), time = 158.877ms.
+Optimization results for grappler item: sequential_lstm_while_cond_3083
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+Optimization results for grappler item: __inference___backward_gpu_lstm_with_fallback_3699_3875
+  function_optimizer: function_optimizer did nothing. time = 0.003ms.
+  function_optimizer: function_optimizer did nothing. time = 0ms.
+Optimization results for grappler item: sequential_lstm_1_while_cond_3316
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+Optimization results for grappler item: sequential_lstm_while_body_3084
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0ms.
+Optimization results for grappler item: __inference_gpu_lstm_with_fallback_3698
+  function_optimizer: function_optimizer did nothing. time = 0.003ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+Optimization results for grappler item: while_body_3517
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0ms.
+Optimization results for grappler item: while_cond_3516
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+Optimization results for grappler item: __inference_standard_lstm_3602_specialized_for_StatefulPartitionedCall_StatefulPartitionedCall_sequential_lstm_2_PartitionedCall_at_graph_to_optimize
+  function_optimizer: Graph size after: 57 nodes (0), 65 edges (0), time = 2.757ms.
+  function_optimizer: Graph size after: 57 nodes (0), 65 edges (0), time = 3.328ms.
+Optimization results for grappler item: __inference_standard_lstm_3602
+  function_optimizer: Graph size after: 61 nodes (0), 69 edges (0), time = 3.375ms.
+  function_optimizer: Graph size after: 61 nodes (0), 69 edges (0), time = 2.728ms.
+Optimization results for grappler item: sequential_lstm_1_while_body_3317
+  function_optimizer: function_optimizer did nothing. time = 0.003ms.
+  function_optimizer: function_optimizer did nothing. time = 0ms.
+Optimization results for grappler item: __forward_gpu_lstm_with_fallback_3874
+  function_optimizer: function_optimizer did nothing. time = 0.002ms.
+  function_optimizer: function_optimizer did nothing. time = 0.001ms.
+
+WARNING:tensorflow:From C:\Users\PC\Documents\Programowanie\Studia\PracaMagisterska\SheetMusicGenerator\venv37-TF2.5.0\lib\site-packages\tensorflow\lite\python\util.py:300: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.convert_variables_to_constants`
+W0603 15:48:47.813833 11196 deprecation.py:336] From C:\Users\PC\Documents\Programowanie\Studia\PracaMagisterska\SheetMusicGenerator\venv37-TF2.5.0\lib\site-packages\tensorflow\lite\python\util.py:300: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.convert_variables_to_constants`
+WARNING:tensorflow:From C:\Users\PC\Documents\Programowanie\Studia\PracaMagisterska\SheetMusicGenerator\venv37-TF2.5.0\lib\site-packages\tensorflow\python\framework\convert_to_constants.py:857: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.extract_sub_graph`
+W0603 15:48:47.815819 11196 deprecation.py:336] From C:\Users\PC\Documents\Programowanie\Studia\PracaMagisterska\SheetMusicGenerator\venv37-TF2.5.0\lib\site-packages\tensorflow\python\framework\convert_to_constants.py:857: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.extract_sub_graph`
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+Use '@tf.function' or '@defun' to decorate the function.
+I0603 15:48:50.463464 11196 lite.py:1489] Using experimental converter: If you encountered a problem please file a bug. You can opt-out by setting experimental_new_converter=False
+2021-06-03 15:48:50.499704: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:345] Ignored output_format.
+2021-06-03 15:48:50.500001: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:348] Ignored drop_control_dependency.
+2021-06-03 15:48:50.528928: I tensorflow/cc/saved_model/reader.cc:38] Reading SavedModel from: C:\Users\PC\AppData\Local\Temp\tmphslhtaze
+2021-06-03 15:48:50.846298: I tensorflow/cc/saved_model/reader.cc:90] Reading meta graph with tags { serve }
+2021-06-03 15:48:50.846642: I tensorflow/cc/saved_model/reader.cc:132] Reading SavedModel debug info (if present) from: C:\Users\PC\AppData\Local\Temp\tmphslhtaze
+2021-06-03 15:48:51.700386: I tensorflow/cc/saved_model/loader.cc:206] Restoring SavedModel bundle.
+2021-06-03 15:48:53.358561: I tensorflow/cc/saved_model/loader.cc:190] Running initialization op on SavedModel bundle at path: C:\Users\PC\AppData\Local\Temp\tmphslhtaze
+2021-06-03 15:48:54.795352: I tensorflow/cc/saved_model/loader.cc:277] SavedModel load for tags { serve }; Status: success: OK. Took 4266470 microseconds.
+2021-06-03 15:48:57.521510: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:210] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
